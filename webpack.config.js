@@ -52,6 +52,12 @@ module.exports = {
         ]
       },
       {
+        test: /\.(woff|woff2)$/, 
+        use: {
+          loader: 'url-loader', //convert in prod to base64
+        },
+      },
+      {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         use: {
