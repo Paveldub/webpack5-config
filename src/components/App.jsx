@@ -10,7 +10,7 @@ const App = () => {
       </section>
       <main>
         <section>
-          <h1>Hey React from main</h1>
+          <h1>Hey React from maindadada</h1>
         </section>
   
         <Recipes />
